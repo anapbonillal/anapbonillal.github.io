@@ -1,0 +1,59 @@
+*{box-sizing: border-box;}
+
+body {
+	background-color: papayawhip; 
+}
+img{
+	height: 200px;
+	width:200;
+}
+h1{
+	color: rgb(5, 109, 255); 
+	font-family:'barrio', 'helvetica', 'serif';
+}
+h2{
+	color: rgb(96, 146, 255);
+	font-family: 'righteous', 'helvetica', 'serif';
+}
+li{
+	color: grey;
+}
+
+h3{
+	color: black;
+	font-family: 'righteous', 'helvetica', 'serif';
+}
+
+.mammal{
+	color: salmon;
+	font-weight: bold;
+}
+.fish{
+	color: orange;
+}
+.bird{
+	color: grey;
+	font-style: italic;
+}
+
+#Welcome{
+	padding: 0px 375px;
+}
+#tagline{
+	padding:0px 375px 50
+}
+/*img{
+	float: 
+}*/
+
+p::first-letter{
+	font-size: 24px;
+}
+a: visited{
+	color: red;
+}
+
+.mammal::firstletter{
+	font-size: 20px;
+	color: darkorange;
+}
